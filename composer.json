@@ -1,0 +1,29 @@
+{
+    "name": "buttress/issues",
+    "type": "library",
+    "require": {
+        "knplabs/github-api": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Korvin Szanto",
+            "email": "korvinszanto@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Buttress\\Issues\\": "src/"
+        }
+    },
+
+    "minimum-stability": "stable",
+
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
